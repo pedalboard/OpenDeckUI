@@ -10,8 +10,6 @@ import {
   SwitchBlock,
   EncoderBlock,
   OutputBlock,
-  DisplayBlock,
-  TouchscreenBlock,
 } from "./index";
 
 export const BlockMap: Dictionary<IBlockDefinition> = {
@@ -20,8 +18,6 @@ export const BlockMap: Dictionary<IBlockDefinition> = {
   [Block.Switch]: SwitchBlock,
   [Block.Encoder]: EncoderBlock,
   [Block.Output]: OutputBlock,
-  [Block.Display]: DisplayBlock,
-  [Block.Touchscreen]: TouchscreenBlock,
 };
 
 // Combine routes for each block into a single array
