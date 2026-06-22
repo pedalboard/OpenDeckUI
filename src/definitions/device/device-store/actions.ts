@@ -130,7 +130,7 @@ const supportsPresetCountRequest = (firmwareVersion: string): boolean => {
 };
 
 const isBlessingRequired = (isKnownBoard: boolean): boolean =>
-  isBlessingRequiredForFirmware(deviceState.firmwareVersion) || !isKnownBoard;
+  false;
 
 const resetBlessingState = (): void => {
   deviceState.isBlessingRequired = false;
