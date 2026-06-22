@@ -1,4 +1,8 @@
-# OpenDeck Configurator
+# OpenDeck Configurator (Pedalboard Fork)
+
+> **This is a fork of [shanteacontrols/OpenDeckUI](https://github.com/shanteacontrols/OpenDeckUI)** — the original, excellent web configurator for the [OpenDeck MIDI platform](https://github.com/shanteacontrols/OpenDeck) by [Igor Petrović / Shantea Controls](https://shanteacontrols.com).
+>
+> This fork removes the board-specific access check to allow use with the [Pedalboard](https://github.com/pedalboard/pedalboard-midi) open hardware MIDI controller. All credit for the design, architecture, and implementation of this configurator belongs to Igor and the Shantea Controls team. If you're looking for an official OpenDeck board with full support, visit [shanteacontrols.com](https://shanteacontrols.com).
 
 - [Usage](#usage)
 - [Relationship To Firmware Releases](#relationship-to-firmware-releases)
