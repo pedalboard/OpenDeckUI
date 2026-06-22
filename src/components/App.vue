@@ -4,8 +4,8 @@
       <router-link :to="{ name: 'home' }" class="app-brand">
         <img
           class="app-brand-logo"
-          src="/images/logo_notext.svg"
-          alt="OpenDeck"
+          src="/images/pedalboard-logo.svg"
+          alt="Pedalboard"
         />
       </router-link>
 
@@ -91,10 +91,6 @@
     <footer class="site-footer" id="footer">
       <div class="footer-container">
         <div class="footer-info">
-          <div class="footer-logo">
-            <img src="/images/logo.svg" width="700" alt="OpenDeck" />
-          </div>
-
           <div class="social-icons">
             <ul class="icons">
               <li>

@@ -5,9 +5,9 @@ export const BLESSING_PAYLOAD_VERSION = 1;
 export const BLESSING_PAYLOAD_PREFIX = "opendeck-blessing-v1";
 export const BLESSING_CONFIG_FEATURE = "config";
 export const BLESSING_ACCESS_CONTACT_MESSAGE =
-  "Contact Shantea Controls for access: shanteacontrols@shanteacontrols.com";
+  "Contact Pedalboard for access: https://github.com/pedalboard";
 export const BLESSING_MORE_INFORMATION_URL =
-  "https://github.com/shanteacontrols/OpenDeck/discussions/379";
+  "https://github.com/pedalboard/opendeck/discussions";
 
 export const BLESSING_PUBLIC_KEY_ALGORITHM = "Ed25519";
 

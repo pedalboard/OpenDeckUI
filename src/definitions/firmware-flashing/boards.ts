@@ -19,10 +19,10 @@ export interface IFlashBoard {
 }
 
 const wikiImageBaseUrl =
-  "https://github.com/shanteacontrols/OpenDeck/wiki/img/boards";
+  "https://github.com/pedalboard/opendeck/wiki/img/boards";
 
 export const releaseDownloadBaseUrl =
-  "https://github.com/shanteacontrols/OpenDeck/releases/latest/download";
+  "https://github.com/pedalboard/opendeck/releases/latest/download";
 
 export const boardImageUrl = (target: string): string =>
   `${wikiImageBaseUrl}/${target}.webp`;

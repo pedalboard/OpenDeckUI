@@ -34,7 +34,7 @@
 
         <p v-if="showContactMessage" class="device-blessing-modal-detail">
           <span>
-            Contact Shantea Controls for access:
+            Contact Pedalboard for access:
             <a :href="contactMailto">{{ contactEmail }}</a>
           </span>
           <span>{{ contactInstruction }}</span>
@@ -73,7 +73,7 @@ import {
   BLESSING_MORE_INFORMATION_URL,
 } from "../blessing";
 
-const contactEmail = "shanteacontrols@shanteacontrols.com";
+const contactEmail = "https://github.com/pedalboard";
 
 export default defineComponent({
   name: "DeviceBlessingModal",

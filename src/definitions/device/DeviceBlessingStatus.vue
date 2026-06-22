@@ -8,7 +8,7 @@
     <span>
       <strong>Configuration locked</strong>
       <span v-if="showContactMessage">
-        Contact Shantea Controls for access:
+        Contact Pedalboard for access:
         <a :href="contactMailto">{{ contactEmail }}</a>.
       </span>
       <span v-else-if="blessingError">{{ blessingError }}</span>
@@ -35,7 +35,7 @@ import {
   BLESSING_MORE_INFORMATION_URL,
 } from "../blessing";
 
-const contactEmail = "shanteacontrols@shanteacontrols.com";
+const contactEmail = "https://github.com/pedalboard";
 
 export default defineComponent({
   name: "DeviceBlessingStatus",
