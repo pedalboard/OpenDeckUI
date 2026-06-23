@@ -88,7 +88,7 @@
         :index="index - 1"
         :highlight="highlights[block][index - 1]"
       >
-        <span class="text-xl font-bold">{{ getComponentLabel(block, index - 1) }}</span>
+        <span class="font-bold">{{ getComponentLabel(block, index - 1) }}</span>
       </DeviceGridButton>
     </div>
     <template v-else-if="segments && segments.length">
@@ -112,7 +112,7 @@
             :index="index"
             :highlight="highlights[block][index]"
           >
-            <span class="text-xl font-bold">{{ getComponentLabel(block, index) }}</span>
+            <span class="font-bold">{{ getComponentLabel(block, index) }}</span>
           </DeviceGridButton>
         </div>
       </div>

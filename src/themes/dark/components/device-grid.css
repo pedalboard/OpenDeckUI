@@ -2,6 +2,12 @@
   @apply max-w-6xl mx-auto p-8 grid grid-cols-4 gap-6 text-center;
 }
 
+.device-grid .btn {
+  @apply w-full text-center flex items-center justify-center;
+  font-size: clamp(0.75rem, 2vw, 1.05rem);
+  min-height: 3rem;
+}
+
 /* segments */
 
 .grid-segment {
