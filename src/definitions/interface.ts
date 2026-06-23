@@ -267,6 +267,12 @@ export interface IBoardDefinition {
   name: string;
   ids: number[][];
   firmwareFileName?: string;
+  componentLabels?: {
+    switches?: string[];
+    encoders?: string[];
+    analogs?: string[];
+    outputs?: string[];
+  };
 }
 
 export enum RequestState {

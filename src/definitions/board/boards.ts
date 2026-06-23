@@ -311,6 +311,17 @@ export const Boards: IBoardDefinition[] = [
     ids: [[94, 89, 1, 17]],
     firmwareFileName: null,
   },
+  {
+    name: "Pedalboard",
+    ids: [[0, 18, 52, 86]],
+    firmwareFileName: null,
+    componentLabels: {
+      switches: ["A", "B", "C", "D", "E", "F"],
+      encoders: ["Vol", "Gain"],
+      analogs: ["Exp 1", "Exp 2"],
+      outputs: ["A", "B", "C", "D", "E", "F", "Vol", "Gain", "Mode", "Mon"],
+    },
+  },
 ];
 
 export default Boards;
