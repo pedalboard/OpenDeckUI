@@ -316,7 +316,7 @@ export const Boards: IBoardDefinition[] = [
     ids: [[0, 18, 52, 86]],
     firmwareFileName: null,
     componentLabels: {
-      switches: ["A", "B", "C", "D", "E", "F"],
+      switches: ["Vol Push", "Gain Push", "A", "B", "C", "D", "E", "F", "Exp 1 SW", "Exp 2 SW"],
       encoders: ["Vol", "Gain"],
       analogs: ["Exp 1", "Exp 2"],
       outputs: ["A", "B", "C", "D", "E", "F", "Vol", "Gain", "Mode", "Mon"],
